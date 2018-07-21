@@ -34,9 +34,9 @@ defmodule CustomRpi3.MixProject do
   defp nerves_package do
     [
       type: :system,
-      #      artifact_sites: [
-      # {:github_releases, "nerves-project/#{@app}"}
-      #],
+            artifact_sites: [
+       {:prefix, "/Users/dean/artifact/"}
+      ],
       platform: Nerves.System.BR,
       platform_config: [
         defconfig: "nerves_defconfig"
