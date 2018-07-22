@@ -35,7 +35,7 @@ defmodule CustomRpi3.MixProject do
     [
       type: :system,
             artifact_sites: [
-       {:prefix, "/Users/dean/artifact/"}
+       {:prefix, "/Users/dean/artifacts/"}
       ],
       platform: Nerves.System.BR,
       platform_config: [
